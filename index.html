@@ -4,18 +4,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scaling websites</title>
+    <title>Scaling Websites</title>
+    <style>
+        body {
+            background-color: #f0f4f8;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0.5em 0;
+        }
+
+        h1:first-of-type {
+            font-weight: bold;
+            font-size: 2.5em;
+            color: #333;
+        }
+
+        h1:nth-of-type(2) {
+            color: #d9534f;
+            font-size: 2em;
+        }
+
+        button {
+            background-color: #5bc0de;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #31b0d5;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 
 <body>
 
-    <h1 style="font-weight: bold;">
-        welcome to the website
-    </h1>
-    <h1 style="color: red;">
-        This is scaling website
-    </h1>
-    <button>Shop</button>
+    <h1>Welcome to the Website</h1>
+    <h1>This is a Scaling Website</h1>
+
+    <div class="button-container">
+        <button>Shop</button>
+    </div>
+
 </body>
 
 </html>
